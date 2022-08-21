@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>progress bar & meter bar &forms & datalist</title>
+</head>
+<body>
+    <h1>progress</h1>
+    <progress value="20" max="100"></progress><!--اذا تحمل ملف في السيرفر--><!--يستخدم للتحميل عادة-->
+    <h1>meter</h1>
+    <meter value="40" min="10" max="100"><!--يستخدم لقياس نسبة البيانات عادة-->
+        the rang between 10 to 100
+    </meter>
+    <h1>forms part1</h1><!--النموذج مثل فورما الاسئلة-->
+    <form>
+    
+        <h1>يرجى ملئ استمارة تسجيل الحضور</h1>
+           <div class="input">
+        <label>User Name</label>
+            <input type="text">
+            </div>
+            <br>
+            <div class="input">
+           <label>Email</label>
+           <input type="email">
+           </div>
+           <br>
+           <div class="input">
+            <label>password</label>
+            <input type="password">
+            </div>
+            <div class="input">
+        
+                <input type="submit">
+                </div>
+  
+    </form>
+    <form>
+        <h1>datalist</h1><!-- عند كتابه الحرف الاول في عملية البحث في بعض المواقع راح يكمل الكتابة-->
+        <label>Name</label>
+        <input type="text" id="search" list="mysearch"><!--يجب ان يكون نوع list ونوع id نفس الاسم-->
+<datalist id="mysearch">
+<option value="ali"> <!--option عبارة عن خيارات -->
+<option value="fatima">
+<option value="sajad">   
+<option value="karrar">
+<option value="hussien"> 
+</datalist>
+    </form>
+</body>
+</html>
