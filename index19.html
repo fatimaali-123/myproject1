@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>طريقة ارسال البيانات وتحويلها action , method </title>
+</head>
+<body>
+    <!-- method طريقة ارسال البيانات-->
+    <form action="a.php" method="post"><!-- action نكتب داخلها اسم الصفحة التي نود ارسال البيانات لها-->
+        <div class="input">
+            <label> User Name</label>
+            <input type="text" required name="user name">
+              </div>
+              <br>
+              <div class="input">
+                <label>Password</label>
+                <input type="password" required name="password">
+                  </div>
+                  <br>
+                  <div class="input">
+                    <label>Email</label>
+                    <input type="email" required name="e"><!--يعني اجباري تملئ الحقل بالمعلومة required-->
+                      </div>
+                      <br>
+                      <input type="submit">
+                      <br>
+                      <div class="input">
+                        <input type="text" required placeholder="user name" ><!--تستخدم اذا كان label غير موجود للدلالة عن الشي المطلوب كتابتهplaceholder-->
+                          </div>
+                          <div class="input">
+                            <br>
+        <label>user name</label>
+                 <input type="text"required placeholder="user name" value="fatima" > <!-- value ونعطيها اسم افتراضي سوف يضهر تلقائيا في حقل الصفحة-->      
+                 </div>
+    </form>
+</body>
+</html>
