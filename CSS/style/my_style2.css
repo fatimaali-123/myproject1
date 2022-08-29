@@ -1,0 +1,13 @@
+/* this style color */
+*{
+     font-size: 30px;
+     font-family: fantasy;
+     background-color: chartreuse;
+     text-align: center;
+     color: black;
+}
+p,h1, div ,h2{
+     color: red;
+     background-color:#ffcc00;
+
+}

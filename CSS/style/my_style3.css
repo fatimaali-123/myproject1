@@ -1,0 +1,26 @@
+/* Background */
+.my_p1{
+     font-size: 30px;
+     color: black;
+     background-repeat: no-repeat;
+     background-image: url(../image/download\ \(1\).jpg);
+     background-size: contain;
+     background-attachment:fixed;
+     background-position: center center;
+
+}
+/* repeat يقصد بتكرار الصورة اذا اخترنا no لاتكرر الصورة */
+/* position الاتجاه */
+/* attach عند اختيار fixed فان الصورة تبقى تتحرك عند تحريك الكتابة او الصفحة للاعلى والاسفل */
+.my_p2{
+     background-image: url(../image/download.jpg);
+     background-size: contain;
+     color: aliceblue;
+     font-size: 30px;
+}
+.my_p3{
+     font-size: 30px;
+     color: aliceblue;
+     background-image: url(../image/download\ \(4\).jpg);
+     background-size: contain;} 
+     /* اتضهر الصورة كاملة عند تكبير وتصغير الشاشةcontain في size */

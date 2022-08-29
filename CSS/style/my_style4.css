@@ -1,0 +1,44 @@
+/* border */
+*{
+     background-color:rebeccapurple;
+}
+.my_p1{
+     font-size: 20px;
+     border-width: 10px;
+     border-style:solid ;
+     border-color:  blue;
+     border-radius: 60px;
+     padding: 10px;
+     width: 500px;
+     margin: auto;
+     margin-top: 50px;
+     margin-bottom: 30px;
+     color: black;
+     background-repeat: no-repeat;
+     background-image: url(../image/download\ \(1\).jpg);
+     background-size: contain;
+     background-attachment:fixed;
+     background-position: center center;
+     outline: red solid;
+}
+/* outline هو عبارة عن خط خارجي يحيط بالعنصر ولاياخذ من حجم العنصر  */
+.input_box{
+     border-radius: 20px;
+     font-size: 20px;
+     border-width: 10px;
+     border-style:solid ;
+     border-color:  red;
+     padding: 10px;
+     width: 500px;
+     margin: auto;
+     margin-top: 50px;
+     margin-bottom: 30px;
+     color: aliceblue;
+     background-image: url(../image/download\ \(4\).jpg);
+     background-size: contain;} 
+     
+/* raduis لجعل الحواف بشكل دائري */
+/* padding المحاذاة للصفحة  */
+/*margin الحواف الخارجية للعنصر بالنسبة للصفحة  */
+/* margin ايضا يقبل الارقام والنسبة بالمية */
+/* border ياخذ من حجم العنصر */
