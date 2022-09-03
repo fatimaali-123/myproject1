@@ -1,0 +1,16 @@
+.f1{
+     background-color: aqua;
+     color: black;
+     font-family: 'Qwitcher Grypen', cursive;
+     border: 5px solid royalblue;
+     margin: 10px;
+     padding: 2px;
+}
+.f2{
+     background-color: chartreuse;
+     color: crimson;
+     font-family: Arial, Helvetica, sans-serif;
+     border: 5px solid royalblue;
+     margin: 20px;
+     padding: 2px;
+}
