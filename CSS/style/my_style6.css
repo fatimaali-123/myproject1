@@ -1,0 +1,23 @@
+.my_span{
+     font-size: 20px;
+     border-width: 10px;
+     border-style:solid ;
+     border-color:  blue;
+     border-radius: 60px;
+     padding: 10px;
+     margin: 10px;
+     display:inline-block;
+}
+/*  marginيخلي مسافة بينه وبين العنصر الاخر حتى لو لم نستخدم block */
+.my_span2{
+     font-size: 30px;
+     color: black;
+     border-width: 10px;
+     border-color: red;
+     border-style: solid;
+     padding: 10px;
+     display: block;
+     
+
+
+}

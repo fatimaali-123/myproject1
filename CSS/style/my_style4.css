@@ -9,8 +9,8 @@
      border-color:  blue;
      border-radius: 60px;
      padding: 10px;
-     width: 500px;
-     margin: auto;
+     width: 500px;                
+     margin: auto;                     
      margin-top: 50px;
      margin-bottom: 30px;
      color: black;
@@ -19,8 +19,9 @@
      background-size: contain;
      background-attachment:fixed;
      background-position: center center;
-     outline: red solid;
+     outline: red dotted;
 }
+/* margin auto تجعلها في الوسط */
 /* outline هو عبارة عن خط خارجي يحيط بالعنصر ولاياخذ من حجم العنصر  */
 .input_box{
      border-radius: 20px;
@@ -35,7 +36,9 @@
      margin-bottom: 30px;
      color: aliceblue;
      background-image: url(../image/download\ \(4\).jpg);
-     background-size: contain;} 
+     background-size: contain;
+     outline:blue double ;
+} 
      
 /* raduis لجعل الحواف بشكل دائري */
 /* padding المحاذاة للصفحة  */

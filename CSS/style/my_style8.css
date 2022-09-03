@@ -1,0 +1,44 @@
+/* grouping & nesting */
+.artical1,
+.artical2,
+.artical3,
+.artical4{
+     padding: 30px;
+     margin: 50px;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     font-size: 40px;
+}
+div p{
+     color:yellow;
+     font-weight: 800;
+     text-align: center;
+}
+.f .artical4{
+     color:red;
+     font-weight: 800;
+     text-align: center;  
+}
+.artical1{
+
+     background-color: grey;
+     border-bottom: 5px solid red;
+
+}
+.artical2{
+
+     background-color: pink;
+     border-bottom: 5px solid black;
+
+}
+.artical3{
+
+     background-color:  rgb(255, 0, 221);
+     border-bottom: 5px solid yellow;
+
+}
+.artical4{
+
+     background-color: greenyellow;
+     border-bottom: 5px solid blue;
+
+}

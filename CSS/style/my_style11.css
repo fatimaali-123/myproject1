@@ -1,0 +1,54 @@
+div{
+     font-size: 20px;
+     background-color: cornflowerblue;
+     color: beige;
+     text-transform:capitalize;
+}
+/*  text-transform:uppercase لجعل الكتابة كابتل */
+/* text-transform:capitalize تجعل اول حرف لكل كلمة كابتل */
+.h1{
+     font-size: 20px;
+     background-color: gray;
+     color: red;
+     text-transform:capitalize;
+     text-decoration:underline;
+     width: 200px;
+     white-space: nowrap;
+     word-break: break-all;
+     overflow: hidden;
+     text-overflow: ellipsis;
+
+     /* overflow تخفي باقي المقالة */
+     /* text-overflow: ellipsis تظهر نقاط في نهاية الكتابة للدلالة على الكتابة المخفية  */
+}
+/* اسم الكلاس:hover طريقة لاضهار النص المخفي فعند تحريك الماوس سوف يضهر النص المخفي */
+.h1:hover{
+     overflow: visible;
+}
+/* white-space حتى لوكان حجم الدف اي العرض مثلاpx فانه يكمل بغض النضر عن مساحة الدف */
+a{
+     background-color: blue;
+     border-radius: 50px;
+     padding: 10px;
+     color: #fff;
+     margin: 40px;
+     text-decoration: none;
+}
+/* none لاخفاء الخط الموجود تحت كوكل */
+.a1{
+     background-color: papayawhip;
+     padding: 10px;
+     color:black;
+     margin: 10px;
+     text-indent: 40px;
+     word-spacing: 5px;
+     letter-spacing: -1px;
+     line-height: 30px;
+     
+}
+/* text-indent تترك مسافة في بداية المقال بمقدار كلمة */
+/* word-spacing المسافه بين الكلمات */
+/* letter-spacing المسافة بين الاحرف */
+/* line-height هو المسافة بين الاسطر وايضا تكون اما سالبة اوموجبة */
+/* white=space حتى لوكان حجم الدف اي العرض مثلاpx فانه يكمل بغض النضر عن مساحة الدف */
+/* letter-spacing & word-spacing  عادي ناخذ قيم موجبة للزيادة وقيم سالبة للنقص */

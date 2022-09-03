@@ -1,0 +1,16 @@
+/*  */
+.my_p1{
+     font-size: 20px;
+     background-color: aqua;
+     padding: 10px;
+     margin: 10px;
+     display:none;
+}
+/*  يختفي هو والمكان ا none // يختفي لكن يحجز مكان hidden*/
+.my_p2{
+     font-size: 20px;
+     padding: 10px;
+     margin: 10px;
+     visibility: hidden;
+}
+/* none & hidden لذلك لايضهر في الصفحة شي */

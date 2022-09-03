@@ -1,0 +1,26 @@
+/* width & height */
+p{
+     font-size: 30px;
+     color: black;
+     border-width: 10px;
+     border-color: red;
+     border-style: solid;
+     padding: 10px;
+     min-width: 300px;
+     max-width: 300px;
+     min-height: 80px;
+     max-height: 100;
+     border: radius 60px;
+     margin: auto;
+}
+.my_p1{
+     font-size: 30px;
+     color: black;
+     border-width: 10px;
+     border-color: red;
+     border-style: solid;
+     padding: 10px;
+     width:fit-content
+}
+/* width:fit contain معناها اخذ بتاعرض كل المحتوى */
+/* width:auto تاخذ العرض حسب الصفحة */

@@ -18,12 +18,13 @@ p{
      background-color: antiquewhite;
 }
 .my_div1{
+     font-size: 70px;
      color: black;
      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-     background-color: #ffcc00;
-     font-size: 30px;
+     background-color: green;
+     
 }
-#my_div{
+#my_div2{
      font-size: 10px;
 }
 #my_div2{
