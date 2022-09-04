@@ -5,6 +5,7 @@
      border: 5px solid royalblue;
      margin: 10px;
      padding: 2px;
+     font-size: 40px;
 }
 .f2{
      background-color: chartreuse;
@@ -13,4 +14,50 @@
      border: 5px solid royalblue;
      margin: 20px;
      padding: 2px;
+}
+/* font style */
+.f3{
+     background-color: chartreuse;
+     color: crimson;
+     font-family: Arial, Helvetica, sans-serif;
+     border: 5px solid royalblue;
+     margin: 20px;
+     padding: 2px;
+     font-style: italic;
+     font-weight: 800;
+}
+/* font weight  اوزان الخطوط تبدا من 100 الى 900*/
+.f4{
+     background-color: chartreuse;
+     color: crimson;
+     font-family: Arial, Helvetica, sans-serif;
+     border: 5px solid royalblue;
+     margin: 20px;
+     padding: 2px;
+     font-weight: bold;
+}
+/* font size */
+.f5{
+     background-color: chartreuse;
+     color: crimson;
+     font-family: Arial, Helvetica, sans-serif;
+     border: 5px solid royalblue;
+     margin: 20px;
+     padding: 2px;
+     font-size: 10vw; 
+}
+/* 1em=16px
+   2em=32px ... */
+/*  
+الوحداتem=time 
+rem=root 
+vw من حجم الصفحةت */
+.f6{
+background-color: chartreuse;
+color: crimson;
+font-family: Arial, Helvetica, sans-serif;
+border: 5px solid royalblue;
+margin: 20px;
+padding: 2px;
+font-size: 2em;
 }
